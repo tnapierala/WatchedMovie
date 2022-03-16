@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="logo.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="IMG/logo.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="CSS/main.css">
     <title>WatchedMovies</title>
 </head>
 <body>
@@ -14,48 +14,46 @@
     <div class="header" id="header">
         <div class="nav container">
             <a href="" class="nav_logo">
-                <img src="logo.ico" alt="WatchedMovies">
+                <img src="IMG/logo.ico" alt="WatchedMovies">
                 WatchedMovies
             </a>
-        
-        <div class="nav_menu" id="nav-menu">
-            <ul class="nav_list">
-                <li class="nav_item">
-                    <a href="#home" class="nav_link"><i class="material-icons-outlined ico">home</i> Home </a>
-                </li>
-                <li class="nav_item p1">
-                    <a href="" class="nav_link"><i class="material-icons-outlined ico">movie</i> All Movies </a>
-                </li>
-                <li class="nav_item">
-                    <a href="" class="nav_link"><i class="material-icons-outlined ico">favorite_border</i> Favorite </a>
-                </li>
-                <li class="nav_item p1">
-                    <a href="" class="nav_link"><i class="material-icons-outlined ico">videocam</i> Watched </a>
-                </li>
-                <li class="nav_item">
-                    <a href="" class="nav_link"><i class="material-icons-outlined ico">poll</i> Statistic</a>
-                </li>
-                <li class="nav_item p2">
-                    <a href="" class="nav_link"><i class="material-icons-outlined ico ">settings</i> Settings </a>
-                </li>
-                <li class="nav_item">
-                    <a href="" class="nav_link"><i class="material-icons-outlined ico">logout</i> Logout </a>
-                </li>
-            </ul>
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list">
+                    <li class="nav_item">
+                        <a href="main.html" class="nav_link"><i class="material-icons-outlined ico">home</i> Home </a>
+                    </li>
+                    <li class="nav_item p1">
+                        <a href="" class="nav_link"><i class="material-icons-outlined ico">movie</i> All Movies </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="" class="nav_link"><i class="material-icons-outlined ico">favorite_border</i> Favorite </a>
+                    </li>
+                    <li class="nav_item p1">
+                        <a href="" class="nav_link"><i class="material-icons-outlined ico">videocam</i> Watched </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="" class="nav_link"><i class="material-icons-outlined ico">poll</i> Statistic</a>
+                    </li>
+                    <li class="nav_item p2">
+                        <a href="" class="nav_link"><i class="material-icons-outlined ico ">settings</i> Settings </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="" class="nav_link"><i class="material-icons-outlined ico">logout</i> Logout </a>
+                    </li>
+                </ul>
 
-            <div class="nav_close" id="nav-close">
-                <i class="material-icons-outlined ico">close</i>
+                <div class="nav_close" id="nav-close">
+                    <i class="material-icons-outlined ico">close</i>
+                </div>
             </div>
-        </div>
-        
-        <div class="nav_toggle" id="nav-toggle">
-            <i class="material-icons-outlined ico">grid_view</i>
-        </div>
 
+            <div class="nav_toggle" id="nav-toggle">
+                <i class="material-icons-outlined ico">grid_view</i>
+            </div>
         </div>
     </div>
     <div class="search_bar" id="search-bar">
-        <div class="search_text">
+        <div class="search_text" >
             <h1>WITAJ NA MOJEJ STRONIE!!</h1>
         </div>
         <div class="search_input" id="search-input">
@@ -63,13 +61,11 @@
                <input id = "s-inp" class = "s_inp" type="text" placeholder="Search..."> 
                <button class="btn-sc" type="reset"> Clear </button>
                <a class="btn-sc" href=""> All Movies</a>
-            </form> 
-            
+            </form>
         </div>        
     </div>
     <div class="main" id="main">
-
-        <div class="home container" id="home">
+        <div class="home_container" id="home">
             <div class="swiper home-swiper">
                 <div class="swiper-wrapp">
                     <div class="swiper-slide">
@@ -80,7 +76,6 @@
         </div>
         <div class="section category"></div>
         <div class="section about" id="about"></div>
-   
     </div>  
     
 
@@ -102,7 +97,7 @@
 <script src="swiper-bundle.min.js"></script>-->
 
 <!--=============== MAIN JS ===============-->
-<script src="main.js"></script>
+<script src="JS/main.js"></script>
 
 </body>
 </html>

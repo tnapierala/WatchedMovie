@@ -53,7 +53,7 @@ function showMovies(data) {
     data.forEach(movie => {
         const {title, release_date, poster_path, vote_average, overview, id} = movie;
         const movieEl = document.createElement('div');
-        movieEl.classList.add('home_container');
+        movieEl.classList.add('home_container#home');
         movieEl.innerHTML = 
         `
         <div class="swiper home-swiper">
@@ -80,7 +80,7 @@ function showMovies(data) {
             <div class="ov_close" id="ov-close${id}">
                 <i class="material-icons-outlined ico">close</i>
             </div>
-            <h1 class="home_discription1"> About ${title} <h1>
+            <h1 class="home_discription1"> About ${title} </h1>
             <h2 class="home_discription2"> ${overview}</h2>
             <a href="#" class="btn-view" id="${id}"> View More </a>
         </div>
